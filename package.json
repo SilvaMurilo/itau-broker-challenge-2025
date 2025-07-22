@@ -3,9 +3,7 @@
     "express": "^5.1.0",
     "kysely": "^0.28.3",
     "mysql2": "^3.14.2",
-    "swagger-ui-express": "^5.0.1",
-    "zod": "^3.5.4",
-    "zod-to-openapi": "^0.2.1"
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "@types/node": "^24.1.0"
