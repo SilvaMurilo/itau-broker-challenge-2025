@@ -1,0 +1,20 @@
+itau-broker-challenge-2025/
+├── node_modules/
+├── src/
+│   ├── db/                 # Conexão e tipos do Kysely
+│   │   ├── index.ts
+│   │   └── schema.ts       # Tipos de tabelas do banco
+│   ├── routes/             # Rotas express
+│   │   ├── user.ts
+│   │   ├── ativo.ts
+│   │   └── operacao.ts
+│   ├── schemas/            # Schemas Zod
+│   │   ├── user.ts
+│   │   ├── ativo.ts
+│   │   └── operacao.ts
+│   ├── openapi.ts          # OpenAPI doc gerada por zod
+│   └── server.ts           # Entry point do express
+├── docker-compose.yml      # MySQL container
+├── .env                    # Variáveis de ambiente (DB, porta, etc)
+├── package.json
+├── package-lock.json
